@@ -182,7 +182,9 @@ setFinish(true)
             </div>
           </div>
         </div>
+        {number===20 && 
         <button onClick={()=>handleFinish()} className="border border-neutral-950 rounded-lg p-1 mb-1 flex mx-auto mt-2 " >Finish</button>
+      }
       </div> :       
       <FinishScreen/>
 }
